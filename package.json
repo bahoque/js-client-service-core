@@ -1,0 +1,40 @@
+{
+  "name": "@bahoque/client-service-core",
+  "version": "0.1.0",
+  "description": "Librería para manejar API de micro servicios (de momento solo feathersjs)",
+  "main": "src/service/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahoque/js-client-service-core.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Js",
+    "Web",
+    "React",
+    "Rxjs"
+  ],
+  "author": "Ezequiel Alfonso Bahoque Lopez",
+  "license": "ISC",
+  "homepage": "https://github.com/bahoque/js-client-service-core#readme",
+  "bugs": {
+    "url": "https://github.com/bahoque/js-client-service-core/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "rxjs": "^6.6.3",
+    "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "prettier": "2.2.1"
+  }
+}
