@@ -1,3 +1,3 @@
-# react-js-service-client
+# client-service-core
 
-Librería para manejar API de micro servicios (de momento solo feathersjs).
+Base para cliente api micro-servicios
