@@ -1,6 +1,6 @@
 {
   "name": "@bahoque/client-service-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Librería para manejar API de micro servicios (de momento solo feathersjs)",
   "main": "src/index.js",
   "scripts": {
