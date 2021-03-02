@@ -721,3 +721,6 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,visualstudio,visualstudiocode,linux,windows,macos,monodevelop,xcode,xcodeinjection,sublimetext,node
+
+src/**/*.js
+src/**/*.js.map
