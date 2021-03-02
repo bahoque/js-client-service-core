@@ -12,7 +12,7 @@ export class Service<T1> implements TService<T1> {
 		throw "Raw method not implemented";
 	}
 
-	find(params?: TParams): Observable<TPaginatedAddons<T1, TPaginated<T1>>> {
+	find(params: TParams = {}): Observable<TPaginatedAddons<T1, TPaginated<T1>>> {
 		const hooks = (data: TPaginated<T1>): Partial<TPaginatedAddons<T1, TPaginated<T1>>> => {
 			let added: Partial<TPaginatedAddons<T1, TPaginated<T1>>> = {};
 
