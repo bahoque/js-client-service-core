@@ -1,6 +1,6 @@
 {
   "name": "@bahoque/client-service-core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Librería para manejar API de micro servicios (de momento solo feathersjs)",
   "main": "src/index.js",
   "scripts": {
@@ -28,13 +28,13 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "lodash": "^4.17.20",
-    "rxjs": "^6.6.3"
+    "lodash": "^4.17.21",
+    "rxjs": "^6.6.6"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.168",
-    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
     "prettier": "2.2.1",
-    "typescript": "^4.1.5"
+    "typescript": "^4.2.2"
   }
 }

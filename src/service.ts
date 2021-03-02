@@ -39,23 +39,23 @@ export class Service<T1> implements TService<T1> {
 		});
 	}
 
-	get(id: number, params?: TParams): Observable<T1> {
+	get(id: number, params: TParams = {}): Observable<T1> {
 		return this.raw<T1>("get", id, params);
 	}
 
-	create(data: Partial<T1>, params?: TParams): Observable<T1[] | T1> {
+	create(data: Partial<T1>, params: TParams = {}): Observable<T1[] | T1> {
 		return this.raw<T1>("create", data, params);
 	}
 
-	update(id: number, data: Partial<T1>, params?: TParams): Observable<T1[] | T1> {
+	update(id: number, data: Partial<T1>, params: TParams = {}): Observable<T1[] | T1> {
 		return this.raw<T1>("update", id, data, params);
 	}
 
-	patch(id: number, data: Partial<T1>, params?: TParams): Observable<T1[] | T1> {
+	patch(id: number, data: Partial<T1>, params: TParams = {}): Observable<T1[] | T1> {
 		return this.raw<T1>("patch", id, data, params);
 	}
 
-	remove(id: number, params?: TParams): Observable<T1[] | T1> {
+	remove(id: number, params: TParams = {}): Observable<T1[] | T1> {
 		return this.raw<T1>("remove", id, params);
 	}
 }
